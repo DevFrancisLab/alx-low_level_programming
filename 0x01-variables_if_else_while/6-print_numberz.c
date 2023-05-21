@@ -5,7 +5,7 @@
  *
  * Description: Putchar is used
  * To output integer values
- * Retrun: outputs result
+ * Return: outputs the result
  */
 int main(void)
 {
