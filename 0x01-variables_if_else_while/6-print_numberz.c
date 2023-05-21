@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry
+ * main - Entry point
  *
+ * Description: Putchar is used
+ * To output integer values
  * Retrun: outputs result
  */
 int main(void)
