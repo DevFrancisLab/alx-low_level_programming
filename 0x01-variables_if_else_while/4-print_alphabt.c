@@ -10,6 +10,10 @@ int main(void)
 
 	for (chr = 'a'; chr <= 'z'; chr++)
 	{
+		if (chr == 'e' || chr == 'q')
+		{
+			continue;
+		}
 		putchar(chr);
 	}
 	putchar('\n');
