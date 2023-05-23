@@ -22,7 +22,7 @@ int main(void)
 			if (m == 98 && n == 99)
 				continue;
 			putchar(',');
-			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
