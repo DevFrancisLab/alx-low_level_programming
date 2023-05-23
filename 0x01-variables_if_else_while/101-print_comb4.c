@@ -20,7 +20,7 @@ int main(void)
 				{
 					putchar('0' + n);
 					putchar('0' + m);
-					putchar('0' + 0);
+					putchar('0' + o);
 					if (n == 7 && m == 8)
 						continue;
 					putchar(',');
