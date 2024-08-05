@@ -1,13 +1,16 @@
 #include "main.h"
 
 /**
+ * _puts - prints string
+ * @str: place holder
  *
+ * Return: Nothing.
  */
 void _puts(char *str)
 {
 	unsigned long int i;
 
-	for (i = 0; i<64; i++)
+	for (i = 0; i < 64; i++)
 	{
 		_putchar(str[i]);
 	}
