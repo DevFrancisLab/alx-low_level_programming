@@ -15,9 +15,6 @@ void print_array(int *a, int n)
 
 		if (n != 4)
 			printf(", ");
-		else
-
-			printf("\n");
-
 	}
+	printf("\n");
 }
