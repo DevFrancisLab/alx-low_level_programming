@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * string_toupper - Change all lowercase letters to uppercase
- * @n: pointer
+ * string_toupper - Change all lowercase to uppercase
+ * @n: Pointer
  *
  * Return: n
  */
@@ -10,10 +10,12 @@ char *string_toupper(char *n)
 {
 	int i;
 
-	for (i = 0; n[i] != '\0'; i++)
+	i = 0;
+	while (n[i] != '\0')
 	{
-		if (n[i] >= 'n' && n[i] <= 'z')
+		if (n[i] >= 'a' && n[i] <= 'z')
 			n[i] = n[i] - 32;
+		i++;
 	}
 	return (n);
 }
